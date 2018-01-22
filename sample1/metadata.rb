@@ -1,0 +1,11 @@
+name 'sample1'
+maintainer 'Raghuram'
+maintainer_email 'you@example.com'
+license 'all_rights'
+description 'Installs/Configures sample1'
+long_description 'Installs/Configures sample1'
+version '0.1.0'
+
+depends 'apt', '~>5.0'
+depends  'unzip', '~> 0.0.1'
+depends 'redis', '~> 3.0.4'
